@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CRBC - Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style_contact.css" media="screen" title="no title">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+
+      $( function() {
+          $( ".widget input[type=submit], .widget a, .widget button" ).button();
+          $( "button, input, a" ).click( function( event ) {
+            event.preventDefault();
+            return false;
+          } );
+        } );
+
+      });
+    </script>
+
+  </head>
+  <body>
+  <div id="wrapper">
+    <div id="header">
+                <img src="images/logo/logo_tree.png" alt="" />
+                <h1>Cedar River Brewing Company</h1>
+            </div>
+            <div id="menuHorz">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="retailLocations.html">RETAIL LOCATIONS</a></li>
+                </ul>
+
+            </div>
+
+    <div id="left-content">
+      <h1 class="contact-headers">About Us</h1>
+      <p class="contact-headers">The Cedar River flows west from the Cascade Mountains in the state of Washington
+toward the city of Seattle. The pristine water it carries is the original source
+for Cedar River Sake.
+
+Our brewery is on Phinney Ridge in Seattle. Our sake is brewed by hand in small
+batches using water, rice, koji and yeast.
+
+Founded in August of 2012, Cedar River Brewing Company is the first sake brewery
+in Washington state in over 70 years. We began brewing in the summer of 2013 and
+have four styles available: Nama, Junmai, Nigori, and Taru. To learn more about
+each style, go to our Sake page. To find where Cedar River sake is sold, go to
+our Find page.
+
+Our goal is to bring fresh, pure, locally brewed sake to the Pacific Northwest
+and help our part of the world become more familiar with this magnificent
+beverage. We continually strive to improve processes, equipment and ingredients
+in order to bring the best sake to you.</p>
+
+    </div>
+
+
+
+
+    <div id="right-content">
+      <h1 class="contact-headers">Send a Message</h1>
+      <p class="contact-headers">Use the form below to send an email message to us. If you have a question and inclued your email address, we'll get back to you as soon as possible.
+      </p>
+      <form>
+        <input type="text" value="Name">
+        <input type="text" value="Email">
+        <input type="text" value="Subject">
+        <textarea rows="5" cols="40" value="Comments"></textarea>
+        <input id="submit" type="submit" value="SEND">
+      </form>
+    </div>
+
+    <div id="footer">
+                    <hr class="hr1">
+                    <div class="footContent">
+
+                        <h3>CUSTOMER SERVICE</h3>
+                        <h5><a href="#">WHOLESALE REQUESTS</a></h5>
+                    </div
+                    ><div class="footContent">
+                        <h3>COMPANY</h3>
+                        <h5><a href="#">CONTACT</a></h5>
+                    </div
+                    ><div class="footContent">
+                        <img class="socialThumbs" src="" alt="" />
+                        <img class="socialThumbs" src="" alt="" />
+                        <img class="socialThumbs" src="" alt="" />
+                        <img class="socialThumbs" src="" alt="" />
+                    </div
+                    ><div class="footContent">
+                        <h3>SUBSCRIBE TO OUR NEWSLETTER!</h3>
+                        <input class="inputTextBox" type="text" name="name" value="Name">
+                        <input class="inputTextBox" type="text" name="name" value="Email">
+                        <input id="newssubmit" class="butSubmitBox submit" type="submit" name="name" value="SUBMIT">
+                    </div>
+                    <hr class="hr2">
+                    <h6 class="textReserved">ALL RIGHTS RESERVED, COPYRIGHT 2016 CEDAR RIVER BREWING COMPANY</h6>
+                </div>
+            </div>
+        </body>
+    </html>

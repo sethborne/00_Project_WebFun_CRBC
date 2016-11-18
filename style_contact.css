@@ -1,0 +1,316 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+#header, #menuHorz, #mainContent, #footer {
+  margin: 0px 100px 0px 100px;
+}
+
+#wrapper {
+  background-color: #FFFFFF;
+  width: 1200px;
+  /*height: 1000px;*/
+  display: inline-block;
+  /*margin: auto;*/
+}
+
+#header {
+  /*background-color: green;*/
+  width: 1000px;
+  height: 100px;
+}
+
+#header img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 25px 25px 0px 25px;
+}
+
+#header h1 {
+  /*text-align: center;*/
+  display: inline-block;
+  vertical-align: top;
+  line-height: 100px;
+}
+
+#menuHorz {
+  /*background-color: cyan;*/
+  width: 1000px;
+  height: 50px;
+  text-align: center;
+}
+
+#menuHorz ul li {
+  display: inline;
+  color: orange;
+  line-height: 50px;
+  padding: 0px 40px 0px 40px;
+
+}
+
+#menuHorz ul li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#menuHorz ul li a {
+  text-decoration: none;
+}
+
+#mainContent {
+  /*background-color: orange;*/
+  width: 1000px;
+  height: 100%;
+  /*display: inline-block;*/
+}
+
+hr {
+  width: 100%;
+  border: none;
+}
+
+#mainContent .indexPad {
+  padding: 100px 0px 0px 0px;
+}
+
+#mainContent .productPad {
+  padding: 50px 0px 0px 0px;
+}
+
+#mainContent .prodContent1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  height: 350px;
+  /*padding: 100px;*/
+  background-color: red;
+  margin: 25px;
+}
+
+#mainContent .prodContent2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 550px;
+  height: 350px;
+  /*padding: 100px;*/
+  background-color: green;
+  margin: 25px;
+}
+
+#mainContent .prodContent3 {
+  display: inline-block;
+  vertical-align: top;
+  width: 447px;
+  height: 447px;
+  /*padding: 100px;*/
+  background-color: blue;
+  margin: 25px;
+  border: 1px solid grey;
+}
+
+/*#mainContent .prodContent1 h3, #mainContent .prodContent2 h3 {
+  position: absolute;
+  top: 475px;
+  left: 140px;
+  width: 100%;
+}
+#mainContent .prodContent1 h3, #mainContent .prodContent2 h3 {
+  position: absolute;
+  top: 475px;
+  left: 140px;
+  width: 100%;
+}*/
+
+#mainContent img {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+#wrapper .hr0 {
+  width: 1200px;
+  height: 4px;
+}
+
+#wrapper .hr0, #footer .hr1 {
+  background-color: rgb(130, 130, 130);
+}
+
+#footer .hr1 {
+  height: 3px;
+}
+
+#footer {
+  /*background-color: purple;*/
+  width: 1000px;
+  height: 160px;
+  display: inline-block;
+  background-color: rgb(170, 170, 170);
+}
+
+#footer .hr2 {
+  background-color: red;
+  height: 2px;
+  margin-top: -3px;
+}
+
+#footer .footContent {
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+
+
+}
+
+#footer .footContent {
+  /*background-color: yellow;*/
+  /*opacity: .2;*/
+}
+
+#footer .footContent h3 {
+  color: white;
+  font-size: 18px;
+  padding: 15px 0px 0px 15px;
+  text-align: left;
+}
+
+#footer .footContent h5 {
+  color: white;
+  font-size: 12px;
+  padding: 10px 0px 0px 15px;
+  text-align: left;
+
+}
+
+#footer .footContent h5 a {
+  color: white;
+  text-decoration: none;
+  text-align: left;
+}
+
+#footer .footContent h5 a:hover, #menuHorz ul li a:hover {
+  color: rgb(255, 0, 0);
+}
+
+#footer .textReserved {
+  padding: 10px 0px 50px 0px;
+  text-align: center;
+}
+
+#footer .footContent   .inputTextBox {
+  display: block;
+  width: 65%;
+  height: 20px;
+  margin: 15px 0px 0px 15px;
+  text-align: left;
+}
+
+#footer .footContent .butSubmitBox {
+  background-color:  rgb(255, 0, 0);
+  border: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+#footer .footContent .butSubmitBox {
+  display: inline-block;
+  height: 25px;
+  width: 35%;
+  margin: 10px 0px 0px -132px;
+}
+
+ /******** Contact Page *********/
+
+ #left-content {
+   width: 480px;
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 30px;
+ }
+
+ #right-content {
+   width: 480px;
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 30px;
+ }
+
+ .contact-headers {
+   width: 90%;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 10px;
+ }
+
+ /*form {
+   width: 100%;
+   margin: auto;
+   padding: 20px;
+ }*/
+
+ input, textarea {
+   display: inline-block;
+   margin: auto;
+   width: 400px;
+   vertical-align: top;
+   margin: 10px 30px 10px 30px;
+   border-radius: 8px;
+   line-height: 30px;
+   background-color: #aaaaaa;
+   color: #ffffff;
+   font-size: 18px;
+   padding-left: 10px;
+   border-style: solid;
+   border: none;
+   text-align: left;
+ }
+
+ label {
+   display: inline-block;
+   vertical-align: top;
+ }
+
+ #submit {
+   width: 125px;
+   padding: 0px;
+   background-color: #ff0000;
+   color: #ffffff;
+   text-align: center;
+ }
+
+
+  #submit:hover {
+    width: 125px;
+    padding: 0px;
+    background-color: #aaaaaa;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .inputTextBox {
+    width: 100px;
+    background-color: #ffffff;
+    color: #aaaaaa;
+  }
+
+  .butSubmitBox {
+    padding: 0px;
+    line-height: 22px;
+    color: #aaaaaa;
+  }
+
+  #newssubmit:hover {
+    width: 125px;
+    padding: 0px;
+    background-color: #ffffff;
+    color: #ff0000;
+    text-align: center;
+  }
