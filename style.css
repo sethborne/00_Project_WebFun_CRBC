@@ -4,17 +4,19 @@
   font-family: sans-serif;
   font-family: 'Open Sans', sans-serif;
   color: black;
+  text-align: center;
 }
 
 #header, #menuHorz, #mainContent, #footer {
-  padding: 0px 100px 0px 100px;
+  margin: 0px 100px 0px 100px;
 }
 
 #wrapper {
   background-color: #FFFFFF;
   width: 1200px;
-  height: 900px;
+  /*height: 1000px;*/
   display: inline-block;
+  /*margin: auto;*/
 }
 
 #header {
@@ -27,7 +29,7 @@
   width: 50px;
   height: 50px;
   display: inline-block;
-  padding: 25px 0px 0px 225px;
+  padding: 25px 25px 0px 25px;
 }
 
 #header h1 {
@@ -73,6 +75,14 @@ hr {
   border: none;
 }
 
+#mainContent .indexPad {
+  padding: 100px 0px 0px 0px;
+}
+
+#mainContent .productPad {
+  padding: 50px 0px 0px 0px;
+}
+
 #mainContent .prodContent1 {
   display: inline-block;
   vertical-align: top;
@@ -91,6 +101,17 @@ hr {
   /*padding: 100px;*/
   background-color: green;
   margin: 25px;
+}
+
+#mainContent .prodContent3 {
+  display: inline-block;
+  vertical-align: top;
+  width: 447px;
+  height: 447px;
+  /*padding: 100px;*/
+  background-color: blue;
+  margin: 25px;
+  border: 1px solid grey;
 }
 
 /*#mainContent .prodContent1 h3, #mainContent .prodContent2 h3 {
@@ -122,19 +143,21 @@ hr {
 }
 
 #footer .hr1 {
-  height: 2px;
+  height: 3px;
 }
 
 #footer {
   /*background-color: purple;*/
   width: 1000px;
-  height: 150px;
+  height: 160px;
   display: inline-block;
+  background-color: rgb(170, 170, 170);
 }
 
 #footer .hr2 {
   background-color: red;
-  height: 1px;
+  height: 2px;
+  margin-top: -3px;
 }
 
 #footer .footContent {
@@ -152,19 +175,24 @@ hr {
 }
 
 #footer .footContent h3 {
-  color: black;
+  color: white;
   font-size: 18px;
-  padding: 15px 0px 0px 0px;
+  padding: 15px 0px 0px 15px;
+  text-align: left;
 }
 
 #footer .footContent h5 {
+  color: white;
   font-size: 12px;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 0px 15px;
+  text-align: left;
+
 }
 
 #footer .footContent h5 a {
+  color: white;
   text-decoration: none;
-
+  text-align: left;
 }
 
 #footer .footContent h5 a:hover, #menuHorz ul li a:hover {
@@ -172,7 +200,7 @@ hr {
 }
 
 #footer .textReserved {
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 50px 0px;
   text-align: center;
 }
 
@@ -180,7 +208,7 @@ hr {
   display: block;
   width: 65%;
   height: 20px;
-  margin: 15px 0px 0px 0px;
+  margin: 15px 0px 0px 15px;
   text-align: left;
 }
 
@@ -196,5 +224,5 @@ hr {
   display: inline-block;
   height: 25px;
   width: 35%;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0px 0px -132px;
 }
