@@ -93,7 +93,7 @@ hr {
   margin: 25px;
 }
 
-#mainContent .prodContent1 h3, #mainContent .prodContent2 h3 {
+/*#mainContent .prodContent1 h3, #mainContent .prodContent2 h3 {
   position: absolute;
   top: 475px;
   left: 140px;
@@ -104,7 +104,7 @@ hr {
   top: 475px;
   left: 140px;
   width: 100%;
-}
+}*/
 
 #mainContent img {
   height: 100%;
@@ -114,12 +114,14 @@ hr {
 
 #wrapper .hr0 {
   width: 1200px;
-  background-color: blue;
   height: 4px;
 }
 
+#wrapper .hr0, #footer .hr1 {
+  background-color: rgb(130, 130, 130);
+}
+
 #footer .hr1 {
-  background-color: black;
   height: 2px;
 }
 
@@ -151,10 +153,12 @@ hr {
 
 #footer .footContent h3 {
   color: black;
-  padding: 20px 0px 0px 0px;
+  font-size: 18px;
+  padding: 15px 0px 0px 0px;
 }
 
 #footer .footContent h5 {
+  font-size: 12px;
   padding: 10px 0px 0px 0px;
 }
 
@@ -164,22 +168,33 @@ hr {
 }
 
 #footer .footContent h5 a:hover, #menuHorz ul li a:hover {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 
 #footer .textReserved {
   padding: 10px 0px 0px 0px;
   text-align: center;
-  text-align: right;
 }
 
 #footer .footContent .inputTextBox {
   display: block;
   width: 65%;
   height: 20px;
-  text-align: center;
+  margin: 15px 0px 0px 0px;
+  text-align: left;
 }
 
 #footer .footContent .butSubmitBox {
+  background-color:  rgb(255, 0, 0);
+  border: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
 
+#footer .footContent .butSubmitBox {
+  display: inline-block;
+  height: 25px;
+  width: 35%;
+  margin: 10px 0px 0px 0px;
 }
